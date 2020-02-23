@@ -7,7 +7,7 @@ namespace GitTest2
     {
         static void Main(string[] args)
         {
-            TestClass testClass = new TestClass(2, 4);
+            TestClass testClass = new TestClass(3, 4);
 
             Console.WriteLine(testClass.number1);
             Console.WriteLine(testClass.number2);
@@ -16,8 +16,8 @@ namespace GitTest2
 
             Person person2 = new Person(20, 500);
 
-            Console.WriteLine(person1.location);
-            Console.WriteLine(person2.location);
+            Console.WriteLine(person1.locality);
+            Console.WriteLine(person2.locality);
 
             
         }
