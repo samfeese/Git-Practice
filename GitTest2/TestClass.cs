@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestNamespace
+namespace GitTest2
 {
     public class TestClass
     {
